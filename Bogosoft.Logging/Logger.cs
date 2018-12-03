@@ -239,7 +239,7 @@ namespace Bogosoft.Logging
 
             var ubound = values.Length - 1;
 
-            if (values[ubound] is CancellationToken)
+            if (values.Length > 0 && values[ubound] is CancellationToken)
             {
                 token = (CancellationToken)values[ubound];
 

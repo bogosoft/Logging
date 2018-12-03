@@ -1,18 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<AssemblyVersion>1.0.0</AssemblyVersion>
+		<AssemblyVersion>1.0.1</AssemblyVersion>
 		<Authors>Clayton Roth</Authors>
 		<Company>Bogosoft</Company>
 		<Copyright>Copyright © 2018</Copyright>
 		<Description>A minimalist library of logging contracts and general purose implementations.</Description>
-		<FileVersion>1.0.0</FileVersion>
+		<FileVersion>1.0.1</FileVersion>
 		<PackageLicenseUrl>https://raw.githubusercontent.com/bogosoft/Logging/master/LICENSE</PackageLicenseUrl>
 		<PackageProjectUrl>https://github.com/bogosoft/Logging</PackageProjectUrl>
 		<PackageTags>logging</PackageTags>
 		<RepositoryUrl>https://github.com/bogosoft/Logging</RepositoryUrl>
 		<TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
 		<Title>Bogosoft.Cloning</Title>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 	</PropertyGroup>
 	<ItemGroup>
 	  <PackageReference Include="Bogosoft.Cloning" Version="1.0.0.2" />
