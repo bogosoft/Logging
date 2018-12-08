@@ -16,6 +16,11 @@ namespace Bogosoft.Logging
         public static ILogger Console => new ConsoleLogger();
 
         /// <summary>
+        /// Get a logger that does not log anything.
+        /// </summary>
+        public static ILogger Null => new NullLogger();
+
+        /// <summary>
         /// Correlate future messages logged by the current logger with a given correlation ID.
         /// </summary>
         /// <param name="logger">The current logger.</param>
